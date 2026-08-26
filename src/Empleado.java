@@ -18,8 +18,13 @@ public class Empleado {
     public double getSalario() {
         return salario;
     }
-
     public void setSalario(double salario) {
         this.salario = salario;
+    }
+    public void imprimir()
+    {
+        System.out.println("Nombre: " + this.getNombre());
+        System.out.println("\nDni: " + this.getDni());
+        System.out.println("\nSalario: " + this.getSalario());
     }
 }
