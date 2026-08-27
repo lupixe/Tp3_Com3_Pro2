@@ -27,4 +27,5 @@ public class Empleado {
         System.out.println("\nDni: " + this.getDni());
         System.out.println("\nSalario: " + this.getSalario());
     }
+    public double SalarioAnual() {return (salario*12);}
 }
