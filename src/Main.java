@@ -11,8 +11,7 @@ public class Main {
         empleado2.setNombre("Ana Sánchez");
         empleado2.setDni(34234123);
         empleado2.setSalario(27500);
-        System.out.println("Nombre: " + (empleado1.getNombre()));
-        System.out.println("\nDni: " + empleado1.getDni());
-        System.out.println("\nSalario: " + empleado1.getSalario());
+        empleado1.imprimir();
+        empleado2.imprimir();
     }
 }

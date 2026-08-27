@@ -10,7 +10,7 @@ public class Empleado {
         this.dni = dni;
     }
     public String getNombre(){
-        return getNombre();
+        return Nombre;
     }
     public void setNombre(String nombre) {
         Nombre = nombre;
