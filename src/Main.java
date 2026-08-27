@@ -19,6 +19,17 @@ public class Main {
         System.out.println("salario Anual"+empleado1.SalarioAnual());
          */
         ///2)
+        /*
+        Cuenta_Bancaria cuenta1 = new Cuenta_Bancaria ("rodrigo",15000);
+        cuenta1.credito(2500);
+        cuenta1.debito(1500);
+        cuenta1.debito(2500);
+        cuenta1.imprimir();
+         */
+        //3)
+
+
+
 
     }
 }
