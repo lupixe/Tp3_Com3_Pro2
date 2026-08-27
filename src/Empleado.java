@@ -3,6 +3,7 @@ public class Empleado {
     private String Nombre;
     private double salario;
 
+    public Empleado(){}
     public int getDni() {
         return dni;
     }
