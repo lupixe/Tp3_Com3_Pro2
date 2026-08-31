@@ -1,5 +1,4 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import  java.util.Scanner;
 public class Main {
     public static void main(String[]args) {
         ///1)
@@ -27,6 +26,15 @@ public class Main {
         cuenta1.imprimir();
          */
         //3)
+        Scanner Scaner= new Scanner(System.in);
+        item_Venta item= new item_Venta();
+        System.out.println("ingrese la descripcion del item: ");
+        String auxN= Scaner.nextLine();
+        System.out.println("ingrese la contidad= ");
+        int auxC=Scaner.nextInt();
+        Scaner.nextLine();
+        System.out.println("ingrese el precio por unidad= ");
+        double auxP=Scaner.nextDouble();
 
 
 
